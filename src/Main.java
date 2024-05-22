@@ -13,7 +13,6 @@ public class Main {
                 stb.append(text);
                 stb.append("\n");
             }
-            text = stb.toString();
             Matcher matcher = pattern.matcher(stb);
             text = matcher.replaceAll(" ");
             writer.write(text);
